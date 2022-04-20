@@ -1,0 +1,191 @@
+Summary for /www/javadecompilers/app/public/data/23.04.21/9d7d6849a18050c23399720da9abab9b/AxisClient.jar
+Decompiled with CFR 0.150
+
+
+net.minecraft.block.state.BlockPistonStructureHelper
+----------------------------
+
+func_177251_a(net.minecraft.util.BlockPos )
+  Unable to fully structure code
+
+
+net.minecraft.client.Minecraft
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+runTick()
+  Unable to fully structure code
+
+
+net.minecraft.client.gui.GuiTextField
+----------------------------
+
+func_146197_a(int int boolean )
+  Unable to fully structure code
+
+
+net.minecraft.command.server.CommandScoreboard
+----------------------------
+
+joinTeam(net.minecraft.command.ICommandSender java.lang.String[] int )
+  Unable to fully structure code
+leaveTeam(net.minecraft.command.ICommandSender java.lang.String[] int )
+  Unable to fully structure code
+
+
+net.minecraft.entity.item.EntityArmorStand
+----------------------------
+
+interactAt(net.minecraft.entity.player.EntityPlayer net.minecraft.util.Vec3 )
+  Unable to fully structure code
+
+
+net.minecraft.item.crafting.CraftingManager
+----------------------------
+
+addRecipe(net.minecraft.item.ItemStack java.lang.Object[] )
+  Unable to fully structure code
+
+
+net.minecraft.item.crafting.RecipesBanners
+----------------------------
+
+func_179533_c(net.minecraft.inventory.InventoryCrafting )
+  Unable to fully structure code
+
+
+net.minecraft.server.MinecraftServer
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+net.minecraft.server.management.PlayerProfileCache
+----------------------------
+
+load()
+  Loose catch block
+save()
+  Loose catch block
+
+
+net.minecraft.util.Cartesian
+----------------------------
+
+next()
+  Unable to fully structure code
+
+
+net.minecraft.util.HttpUtil
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 10[WHILELOOP]
+
+
+net.minecraft.village.VillageSiege
+----------------------------
+
+func_75529_b()
+  Unable to fully structure code
+
+
+io.netty.channel.epoll.EpollDatagramChannel
+----------------------------
+
+epollInReady()
+  Unable to fully structure code
+
+
+io.netty.handler.codec.ByteToMessageDecoder
+----------------------------
+
+channelRead(io.netty.channel.ChannelHandlerContext java.lang.Object )
+  Loose catch block
+
+
+io.netty.handler.codec.compression.SnappyFramedDecoder
+----------------------------
+
+decode(io.netty.channel.ChannelHandlerContext io.netty.buffer.ByteBuf java.util.List<java.lang.Object> )
+  Unable to fully structure code
+
+
+io.netty.handler.codec.MessageToMessageEncoder
+----------------------------
+
+write(io.netty.channel.ChannelHandlerContext java.lang.Object io.netty.channel.ChannelPromise )
+  Unable to fully structure code
+
+
+io.netty.handler.codec.ReplayingDecoder
+----------------------------
+
+callDecode(io.netty.channel.ChannelHandlerContext io.netty.buffer.ByteBuf java.util.List<java.lang.Object> )
+  Unable to fully structure code
+
+
+io.netty.handler.ssl.SslHandler
+----------------------------
+
+wrap(io.netty.channel.ChannelHandlerContext boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid source, tried to remove [0] lbl48 : GotoStatement: goto lbl4;
+
+from [] lbl3 : TryStatement: try { 0[TRYBLOCK]
+
+but was not a source.
+
+
+io.netty.util.concurrent.DefaultPromise
+----------------------------
+
+await0(long boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [14[DOLOOP]], but top level block is 7[TRYBLOCK]
+
+
+io.netty.util.concurrent.GlobalEventExecutor
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+io.netty.util.internal.chmv8.CountedCompleter
+----------------------------
+
+tryComplete()
+  Unable to fully structure code
+propagateCompletion()
+  Unable to fully structure code
+
+
+io.netty.util.internal.chmv8.ForkJoinPool
+----------------------------
+
+tryHelpStealer(io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue io.netty.util.internal.chmv8.ForkJoinTask<?> )
+  Unable to fully structure code
+tryTerminate(boolean boolean )
+  Unable to fully structure code
+
+
+io.netty.util.internal.ThreadLocalRandom
+----------------------------
+
+getInitialSeedUniquifier()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[DOLOOP]], but top level block is 0[TRYBLOCK]
+
+
+io.netty.util.NetUtil
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+io.netty.util.ThreadDeathWatcher
+----------------------------
+
+run()
+  Unable to fully structure code
